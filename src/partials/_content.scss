@@ -1,0 +1,20 @@
+.big-image {
+    margin-bottom: $spacing * 2;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.small-images {
+    display: flex;
+    justify-content: space-between;
+
+    .image {
+        flex-basis: 32%;
+
+        img {
+            max-width: 100%;
+        }
+    }
+}
